@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">a010995f923c5210d91402b343758a44</dataset>
+        <order/>
+        <predicate_bundle display_value="My Tasks - Task bundle">e010995f3f3c521075509abc97947c40</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:36:03</sys_created_on>
+        <sys_id>6010995f4c3c52100973c186dbc2613f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_6010995f4c3c52100973c186dbc2613f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:36:03</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

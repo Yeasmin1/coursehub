@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">a010995f7f3c52109b1a1ff6461b4763</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">2810995f643c52104abc8b29c3543159</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:36:04</sys_created_on>
+        <sys_id>e810995fc13c52105689db0c86fd3859</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_e810995fc13c52105689db0c86fd3859</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:36:04</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

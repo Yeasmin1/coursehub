@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>02815d9fc33c5210b9dc1cedd4013171</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>course-subscription--application</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:42:24</sys_created_on>
+        <sys_id>8a815d9fc33c5210b9dc1cedd4013173</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course Subscription  application</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_page_registry_8a815d9fc33c5210b9dc1cedd4013173</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:42:24</sys_updated_on>
+        <title>Course Subscription  application</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>02430fa2db963114f697684e139619c3</instance_id>
+        <instance_name>dev207201</instance_name>
+        <name>sys_ux_page_registry_8a815d9fc33c5210b9dc1cedd4013173</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>02815d9fc33c5210b9dc1cedd4013171</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>course-subscription--application</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 15:42:24</sys_created_on><sys_id>8a815d9fc33c5210b9dc1cedd4013173</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Course Subscription  application</sys_name><sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package><sys_policy/><sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope><sys_update_name>sys_ux_page_registry_8a815d9fc33c5210b9dc1cedd4013173</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 15:42:24</sys_updated_on><title>Course Subscription  application</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1673185841</payload_hash>
+        <record_name>Course Subscription  application</record_name>
+        <reverted_from/>
+        <source>ca787c57c3b85210b9dc1cedd401318e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:42:24</sys_created_on>
+        <sys_id>56815d9fc33c5210b9dc1cedd4013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1923425c9aa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:42:24</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>5a815d9f893c5210d57829e8999f9775</update_guid>
+        <update_guid_history>5a815d9f893c5210d57829e8999f9775:-1673185841</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 21:57:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>08b44861bf77475c992fb5f5f472e804</sys_id>
+        <sys_metadata>8a815d9fc33c5210b9dc1cedd4013173</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course Subscription  application</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_8a815d9fc33c5210b9dc1cedd4013173</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_8a815d9fc33c5210b9dc1cedd4013173">56815d9fc33c5210b9dc1cedd4013176</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 21:57:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

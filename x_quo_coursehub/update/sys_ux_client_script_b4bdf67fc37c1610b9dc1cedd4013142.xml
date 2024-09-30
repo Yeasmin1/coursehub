@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="home">aeb7f9afc3f0d210b9dc1cedd401316b</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+
+    const newQuery = `course=${api.state.course_sys_id}^learner=${api.state.course_sys_id}`;
+    console.log("From subscription event");
+    console.log(api.state.course_sys_id);
+    console.log(api.state.learner_sys_id);
+
+    if((api.state.course_sys_id || api.state.learner_sys_id) == (undefined || '' || null)) {
+        console.log('Learner or Course variable empty');
+    } 
+    else{
+    api.data.create_record_1.execute({
+        'table': 'x_quo_coursehub_course_subscription',
+        'templateFields': newQuery,
+        'useSetDisplayValue' : true
+    });
+    }
+	
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 14:14:42</sys_created_on>
+        <sys_id>b4bdf67fc37c1610b9dc1cedd4013142</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_b4bdf67fc37c1610b9dc1cedd4013142</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 00:45:30</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

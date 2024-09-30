@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_menu_actions</name>
+        <page display_value="">9010595fe13c5210075df78365cfaeee</page>
+        <required_translations>[{"message":"Report issue","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:36:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>1c10595f983c52102022b4cd20e9c6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_page_property_1c10595f983c52102022b4cd20e9c6f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:36:05</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_quo_coursehub.9010595fe13c5210075df78365cfaeee.root.chrome_menu_actions</unique_name>
+        <value>{&#13;
+    "label": {"translatable":true, "message":"Report issue"},&#13;
+    "value": {&#13;
+  		"route":"catalog",&#13;
+        "reload":true,&#13;
+       	"fields":{&#13;
+                   "sysId": "3f1dd0320a0a0b99000a53f7604a2ef9"&#13;
+		}&#13;
+	}&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>02430fa2db963114f697684e139619c3</instance_id>
+        <instance_name>dev207201</instance_name>
+        <name>sys_ux_page_property_1c10595f983c52102022b4cd20e9c6f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_menu_actions</name><page display_value="">9010595fe13c5210075df78365cfaeee</page><required_translations>[{"message":"Report issue","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 15:36:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>1c10595f983c52102022b4cd20e9c6f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_menu_actions</sys_name><sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package><sys_policy/><sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope><sys_update_name>sys_ux_page_property_1c10595f983c52102022b4cd20e9c6f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 15:36:05</sys_updated_on><type>json</type><unique_name>x_quo_coursehub.9010595fe13c5210075df78365cfaeee.root.chrome_menu_actions</unique_name><value>{&#13;
+    "label": {"translatable":true, "message":"Report issue"},&#13;
+    "value": {&#13;
+  		"route":"catalog",&#13;
+        "reload":true,&#13;
+       	"fields":{&#13;
+                   "sysId": "3f1dd0320a0a0b99000a53f7604a2ef9"&#13;
+		}&#13;
+	}&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1780885577</payload_hash>
+        <record_name>chrome_menu_actions</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 21:57:43</sys_created_on>
+        <sys_id>fb6766dbc3f09210b9dc1cedd40131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192357d63e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 21:57:43</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>bb6766db96f09210145f3bd4ff9e53a0</update_guid>
+        <update_guid_history>bb6766db96f09210145f3bd4ff9e53a0:1780885577</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 21:57:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>9e0534bcc90e485d9dc705ebf9a32c21</sys_id>
+        <sys_metadata>1c10595f983c52102022b4cd20e9c6f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu_actions</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_1c10595f983c52102022b4cd20e9c6f6</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_1c10595f983c52102022b4cd20e9c6f6">fb6766dbc3f09210b9dc1cedd40131a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 21:57:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

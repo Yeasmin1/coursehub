@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Default">558c633bc3705610b9dc1cedd40131e3</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+  
+    console.log("From delete event");
+    console.log(api.state.course_subscription_delete_id);
+
+    api.data.delete_record_1.execute({
+        'table': 'x_quo_coursehub_course_subscription',
+        'record': api.state.course_subscription_delete_id,
+    });
+ 
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 00:04:56</sys_created_on>
+        <sys_id>e9f55d44c3895610b9dc1cedd40131e4</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_e9f55d44c3895610b9dc1cedd40131e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 00:49:28</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>02430fa2db963114f697684e139619c3</instance_id>
+        <instance_name>dev207201</instance_name>
+        <name>sys_ux_client_script_e9f55d44c3895610b9dc1cedd40131e4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Default"&gt;558c633bc3705610b9dc1cedd40131e3&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+  
+    console.log("From delete event");
+    console.log(api.state.course_subscription_delete_id);
+
+    api.data.delete_record_1.execute({
+        'table': 'x_quo_coursehub_course_subscription',
+        'record': api.state.course_subscription_delete_id,
+    });
+ 
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-30 00:04:56&lt;/sys_created_on&gt;&lt;sys_id&gt;e9f55d44c3895610b9dc1cedd40131e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="CourseHub" source="x_quo_coursehub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CourseHub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_e9f55d44c3895610b9dc1cedd40131e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-30 00:49:28&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1300495699</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>ca787c57c3b85210b9dc1cedd401318e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 00:49:28</sys_created_on>
+        <sys_id>1fe1a10cc3c95610b9dc1cedd4013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19240675a780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 00:49:28</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>93e1a10c27c95610f5c919ae21d69a46</update_guid>
+        <update_guid_history>93e1a10c27c95610f5c919ae21d69a46:-1300495699,f53fd1088dc95610cc6cd7afc360de68:496142769,b38e91c44ec95610c3cf218090d219fd:-1160961320,043e598453c95610940eecae4f3ae617:-1300495699,7abd5d443fc95610156092478254a15d:-34305726,50fc5dc088c9561024588b8d00d60290:-1830944194,5259598c55895610cc1847ef93093095:-1207499110,8bb7ddc8b8895610e500c9cb73c1793c:390022168</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 00:53:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>a1007efbf10349a0b2f9e98640727790</sys_id>
+        <sys_metadata>e9f55d44c3895610b9dc1cedd40131e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_e9f55d44c3895610b9dc1cedd40131e4</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_e9f55d44c3895610b9dc1cedd40131e4">1fe1a10cc3c95610b9dc1cedd4013146</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 00:53:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

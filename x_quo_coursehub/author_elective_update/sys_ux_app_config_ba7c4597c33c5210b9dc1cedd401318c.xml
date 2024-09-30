@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <encode_query_string>false</encode_query_string>
+        <icon/>
+        <landing_path>home</landing_path>
+        <name>Course Subscription prototype application</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:20:19</sys_created_on>
+        <sys_id>ba7c4597c33c5210b9dc1cedd401318c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course Subscription prototype application</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_app_config_ba7c4597c33c5210b9dc1cedd401318c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:20:19</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=ba7c4597c33c5210b9dc1cedd401318c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>02430fa2db963114f697684e139619c3</instance_id>
+        <instance_name>dev207201</instance_name>
+        <name>sys_ux_app_config_ba7c4597c33c5210b9dc1cedd401318c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description/><disable_auto_reflow>false</disable_auto_reflow><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>Course Subscription prototype application</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-27 15:20:19</sys_created_on><sys_id>ba7c4597c33c5210b9dc1cedd401318c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Course Subscription prototype application</sys_name><sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package><sys_policy/><sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope><sys_update_name>sys_ux_app_config_ba7c4597c33c5210b9dc1cedd401318c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-27 15:20:19</sys_updated_on></sys_ux_app_config><sys_translated_text action="delete_multiple" query="documentkey=ba7c4597c33c5210b9dc1cedd401318c"/></record_update>]]></payload>
+        <payload_hash>270525795</payload_hash>
+        <record_name>Course Subscription prototype application</record_name>
+        <reverted_from/>
+        <source>ca787c57c3b85210b9dc1cedd401318e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:20:19</sys_created_on>
+        <sys_id>727c4597c33c5210b9dc1cedd401318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192341192d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:20:19</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>767c4597d83c521074ec79545485f58e</update_guid>
+        <update_guid_history>767c4597d83c521074ec79545485f58e:270525795</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-27 15:33:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>099040cd34fa4c8b875655f18c1cf8f9</sys_id>
+        <sys_metadata>ba7c4597c33c5210b9dc1cedd401318c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course Subscription prototype application</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_ba7c4597c33c5210b9dc1cedd401318c</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_ba7c4597c33c5210b9dc1cedd401318c">727c4597c33c5210b9dc1cedd401318f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-27 15:33:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="home">323da77bc3705610b9dc1cedd40131e3</macroponent>
+        <name>New client script 1</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+var learner = '8d083fa3c3bcd210b9dc1cedd4013132';
+    var coureIdref = '39903ad7c3349210b9dc1cedd401318c';
+    var subscriptionDate = "2021-08-16T16:31:53.596Z";
+    var templateFields = 'course=39903ad7c3349210b9dc1cedd401318c^learner=8d083fa3c3bcd210b9dc1cedd4013132^subscription_date=2021-08-16T16:31:53.596Z';
+    //templateFields = templateFields.toString();
+
+    api.data.create_record_1.execute({
+        'table': 'x_quo_coursehub_course_subscription',
+        'templateFields': templateFields,
+        'useSetDisplayValue' : true
+    });
+
+    var courseId = 'CRS0001001'; // Replace with a valid sys_id of a user
+    var coureIdref = '39903ad7c3349210b9dc1cedd401318c';
+    var learnerId =  '8d083fa3c3bcd210b9dc1cedd4013132'; // Replace with a valid sys_id of a group
+
+    // Define the record creation parameters
+    var createRecordParams = {
+        table: 'x_quo_coursehub_course_subscription',  // Specify the target table
+        templateFields: {
+            course: coureIdref,
+            learner: learnerId,
+        },
+        useSetDisplayValue: true
+    };
+
+    // Execute the record creation
+    //api.data.createRecord_1.execute(createRecordParams).then(function(response) { 
+    //}).catch(function(error) {
+        // Handle any errors
+    //    console.error('Error creating record:', error);
+    //});
+
+	
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 16:19:37</sys_created_on>
+        <sys_id>f63da77bc3705610b9dc1cedd40131e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_update_name>sys_ux_client_script_f63da77bc3705610b9dc1cedd40131e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-29 16:19:37</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</application>
+        <file_path/>
+        <instance_id>02430fa2db963114f697684e139619c3</instance_id>
+        <instance_name>dev207201</instance_name>
+        <name>sys_ux_client_script_f63da77bc3705610b9dc1cedd40131e6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="home"&gt;323da77bc3705610b9dc1cedd40131e3&lt;/macroponent&gt;&lt;name&gt;New client script 1&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+var learner = '8d083fa3c3bcd210b9dc1cedd4013132';
+    var coureIdref = '39903ad7c3349210b9dc1cedd401318c';
+    var subscriptionDate = "2021-08-16T16:31:53.596Z";
+    var templateFields = 'course=39903ad7c3349210b9dc1cedd401318c^learner=8d083fa3c3bcd210b9dc1cedd4013132^subscription_date=2021-08-16T16:31:53.596Z';
+    //templateFields = templateFields.toString();
+
+    api.data.create_record_1.execute({
+        'table': 'x_quo_coursehub_course_subscription',
+        'templateFields': templateFields,
+        'useSetDisplayValue' : true
+    });
+
+    var courseId = 'CRS0001001'; // Replace with a valid sys_id of a user
+    var coureIdref = '39903ad7c3349210b9dc1cedd401318c';
+    var learnerId =  '8d083fa3c3bcd210b9dc1cedd4013132'; // Replace with a valid sys_id of a group
+
+    // Define the record creation parameters
+    var createRecordParams = {
+        table: 'x_quo_coursehub_course_subscription',  // Specify the target table
+        templateFields: {
+            course: coureIdref,
+            learner: learnerId,
+        },
+        useSetDisplayValue: true
+    };
+
+    // Execute the record creation
+    //api.data.createRecord_1.execute(createRecordParams).then(function(response) { 
+    //}).catch(function(error) {
+        // Handle any errors
+    //    console.error('Error creating record:', error);
+    //});
+
+	
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-29 16:19:37&lt;/sys_created_on&gt;&lt;sys_id&gt;f63da77bc3705610b9dc1cedd40131e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 1&lt;/sys_name&gt;&lt;sys_package display_value="CourseHub" source="x_quo_coursehub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CourseHub"&gt;d7affc501bf0ded0afce657a234bcb67&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_f63da77bc3705610b9dc1cedd40131e6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-29 16:19:37&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-973385744</payload_hash>
+        <record_name>New client script 1</record_name>
+        <reverted_from/>
+        <source>ca787c57c3b85210b9dc1cedd401318e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 16:19:37</sys_created_on>
+        <sys_id>b23da77bc3705610b9dc1cedd40131ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1923e9492d70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-29 16:19:37</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>b63da77b05705610c94092d70f17a3e9</update_guid>
+        <update_guid_history>b63da77b05705610c94092d70f17a3e9:-973385744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-29 16:20:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>850e1b03c37b4e1ea65fc482a5073ac4</sys_id>
+        <sys_metadata>f63da77bc3705610b9dc1cedd40131e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 1</sys_name>
+        <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
+        <sys_scope_delete display_value="">000122c0f5d3422480b2ea6a41b8cf10</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_f63da77bc3705610b9dc1cedd40131e6</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_f63da77bc3705610b9dc1cedd40131e6">b23da77bc3705610b9dc1cedd40131ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-29 16:20:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
