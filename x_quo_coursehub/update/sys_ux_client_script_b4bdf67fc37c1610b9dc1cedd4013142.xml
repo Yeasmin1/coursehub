@@ -15,20 +15,45 @@
 */
 function handler({api, event, helpers, imports}) {
 
-    const newQuery = `course=${api.state.course_sys_id}^learner=${api.state.course_sys_id}`;
+    const newQuery = `course=${api.state.course_sys_id}^learner=${api.state.learner_sys_id}`;
     console.log("From subscription event");
     console.log(api.state.course_sys_id);
     console.log(api.state.learner_sys_id);
 
-    if((api.state.course_sys_id || api.state.learner_sys_id) == (undefined || '' || null)) {
+    if(api.state.learner_sys_id === undefined) {
         console.log('Learner or Course variable empty');
+        api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+        items: [{
+            status: 'warning',
+            icon: 'info-circle-outline',
+            header: 'Failure: ',
+            content: 'Record creation failed.  Select learner',
+            action: {
+                type: 'dismiss'
+            }
+        }]
+        });
     } 
     else{
-    api.data.create_record_1.execute({
-        'table': 'x_quo_coursehub_course_subscription',
-        'templateFields': newQuery,
-        'useSetDisplayValue' : true
+        console.log('starting create recrod');
+        api.data.create_record_1.execute({
+            'table': 'x_quo_coursehub_course_subscription',
+            'templateFields': newQuery,
+            'useSetDisplayValue' : true
+        });
+        api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
+        items: [{
+            status: 'positive',
+            icon: 'thumbs-up-outline',
+            header: 'Success: ',
+            content: 'Record was created',
+            action: {
+                type: 'dismiss'
+            }
+        }]
     });
+
+
     }
 	
 }]]></script>
@@ -37,14 +62,14 @@ function handler({api, event, helpers, imports}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-29 14:14:42</sys_created_on>
         <sys_id>b4bdf67fc37c1610b9dc1cedd4013142</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_name>New client script 1</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_ux_client_script_b4bdf67fc37c1610b9dc1cedd4013142</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-30 00:45:30</sys_updated_on>
+        <sys_updated_on>2024-09-30 01:36:50</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
