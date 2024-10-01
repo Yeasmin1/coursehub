@@ -51,7 +51,7 @@
                                                             "type": "MACROPONENT"
                                                         },
                                                         "elementId": "text_link_7",
-                                                        "elementLabel": "Text link 7",
+                                                        "elementLabel": "Logo text",
                                                         "eventMappings": [],
                                                         "isHidden": {
                                                             "type": "JSON_LITERAL",
@@ -837,7 +837,7 @@
                                                                                     "type": "MACROPONENT"
                                                                                 },
                                                                                 "elementId": "heading_2",
-                                                                                "elementLabel": "Heading 2",
+                                                                                "elementLabel": "Course Title",
                                                                                 "eventMappings": [],
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
@@ -881,18 +881,18 @@
                                                                                     "type": "MACROPONENT"
                                                                                 },
                                                                                 "elementId": "heading_5",
-                                                                                "elementLabel": "Heading 5",
+                                                                                "elementLabel": "Course Description",
                                                                                 "eventMappings": [],
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
                                                                                     "value": null
                                                                                 },
-                                                                                "preset": {
-                                                                                    "controllerElementId": "data_manager_exclusion_form_1",
-                                                                                    "disabledEventTargetIds": [],
-                                                                                    "id": "d7949c3dcbdd311078520592a2e8663a"
-                                                                                },
+                                                                                "preset": null,
                                                                                 "propertyValues": {
+                                                                                    "hasNoMargin": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
+                                                                                    },
                                                                                     "label": {
                                                                                         "binding": {
                                                                                             "address": [
@@ -903,9 +903,17 @@
                                                                                         },
                                                                                         "type": "REPEATER_ITEM_BINDING"
                                                                                     },
+                                                                                    "level": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": "1"
+                                                                                    },
                                                                                     "variant": {
                                                                                         "type": "JSON_LITERAL",
                                                                                         "value": "title-primary"
+                                                                                    },
+                                                                                    "wontWrap": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": false
                                                                                     }
                                                                                 },
                                                                                 "slot": null,
@@ -917,7 +925,7 @@
                                                                                     "type": "MACROPONENT"
                                                                                 },
                                                                                 "elementId": "button_1",
-                                                                                "elementLabel": "Button 1",
+                                                                                "elementLabel": "Subscribe Button",
                                                                                 "eventMappings": [
                                                                                     {
                                                                                         "eventMappingId": "cmbboccqhggxaaccbbcddbhhdziiqkaapbbn",
@@ -1395,23 +1403,6 @@
         <data>[
     {
         "definition": {
-            "id": "4bf5dda0cb11311078520592a2e866c1",
-            "type": "CONTROLLER"
-        },
-        "dependencies": {},
-        "elementId": "data_manager_exclusion_form_1",
-        "elementLabel": "Data Manager Exclusion Form 1",
-        "eventMappings": [],
-        "inputValues": {
-            "ts": {
-                "type": "JSON_LITERAL",
-                "value": ""
-            }
-        },
-        "readEvaluationMode": "EAGER"
-    },
-    {
-        "definition": {
             "id": "b997a84053021010cbc2ddeeff7b1228",
             "type": "COMPOSITE"
         },
@@ -1480,38 +1471,6 @@
             }
         },
         "readEvaluationMode": "EXPLICIT"
-    },
-    {
-        "definition": {
-            "id": "9664d48053461010cbc2ddeeff7b128e",
-            "type": "COMPOSITE"
-        },
-        "elementId": "look_up_a_single_record_1",
-        "elementLabel": "Look up a single record 1",
-        "eventMappings": [],
-        "inputValues": {
-            "recordId": {
-                "type": "JSON_LITERAL",
-                "value": "8d083fa3c3bcd210b9dc1cedd4013132"
-            },
-            "returnFieldMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "returnFields": {
-                "type": "JSON_LITERAL",
-                "value": "sys_id"
-            },
-            "returnTableMetadata": {
-                "type": "JSON_LITERAL",
-                "value": false
-            },
-            "table": {
-                "type": "JSON_LITERAL",
-                "value": "x_quo_coursehub_learner"
-            }
-        },
-        "readEvaluationMode": "EAGER"
     },
     {
         "definition": {
@@ -1820,14 +1779,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-28 13:07:45</sys_created_on>
         <sys_id>aeb7f9afc3f0d210b9dc1cedd401316b</sys_id>
-        <sys_mod_count>292</sys_mod_count>
+        <sys_mod_count>295</sys_mod_count>
         <sys_name>home</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_ux_macroponent_aeb7f9afc3f0d210b9dc1cedd401316b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-30 22:40:09</sys_updated_on>
+        <sys_updated_on>2024-10-01 17:09:05</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=aeb7f9afc3f0d210b9dc1cedd401316b"/>
 </record_update>

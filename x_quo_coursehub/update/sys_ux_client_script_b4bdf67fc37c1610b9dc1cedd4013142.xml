@@ -16,12 +16,8 @@
 function handler({api, event, helpers, imports}) {
 
     const newQuery = `course=${api.state.course_sys_id}^learner=${api.state.learner_sys_id}`;
-    console.log("From subscription event");
-    console.log(api.state.course_sys_id);
-    console.log(api.state.learner_sys_id);
-
+    
     if(api.state.learner_sys_id === undefined) {
-        console.log('Learner or Course variable empty');
         api.emit('NOW_UXF_PAGE#ADD_NOTIFICATIONS', {
         items: [{
             status: 'warning',
@@ -35,7 +31,6 @@ function handler({api, event, helpers, imports}) {
         });
     } 
     else{
-        console.log('starting create recrod');
         api.data.create_record_1.execute({
             'table': 'x_quo_coursehub_course_subscription',
             'templateFields': newQuery,
@@ -46,7 +41,7 @@ function handler({api, event, helpers, imports}) {
             status: 'positive',
             icon: 'thumbs-up-outline',
             header: 'Success: ',
-            content: 'Record was created',
+            content: 'Course subscription successful',
             action: {
                 type: 'dismiss'
             }
@@ -62,14 +57,14 @@ function handler({api, event, helpers, imports}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-09-29 14:14:42</sys_created_on>
         <sys_id>b4bdf67fc37c1610b9dc1cedd4013142</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>New client script 1</sys_name>
         <sys_package display_value="CourseHub" source="x_quo_coursehub">d7affc501bf0ded0afce657a234bcb67</sys_package>
         <sys_policy/>
         <sys_scope display_value="CourseHub">d7affc501bf0ded0afce657a234bcb67</sys_scope>
         <sys_update_name>sys_ux_client_script_b4bdf67fc37c1610b9dc1cedd4013142</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-09-30 01:36:50</sys_updated_on>
+        <sys_updated_on>2024-10-01 17:02:18</sys_updated_on>
         <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
